@@ -5,8 +5,8 @@ using UnityEngine;
 public class SpriteScript : MonoBehaviour {
 
 	Animator myController;
-	public AudioSource audio1;
-	public AudioSource audio2;
+	[SerializeField] AudioSource audio1;
+	[SerializeField] AudioSource audio2;
 
 	// Use this for initialization
 	void Start () {
